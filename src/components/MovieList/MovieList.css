@@ -1,0 +1,15 @@
+.movie-list {
+  margin: 1rem 0;
+  font-size: 1.2rem;
+  border-spacing: 0;
+}
+
+.movie-list tr:hover {
+  cursor: pointer;
+  background-color: antiquewhite;
+}
+
+.movie-list td {
+  height: 8.5rem;
+  padding: 0.5rem;
+}
