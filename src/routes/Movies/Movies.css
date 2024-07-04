@@ -1,0 +1,54 @@
+.movie-page-container {
+  display: grid;
+  grid-template-columns: 0.8fr 1fr;
+}
+
+.movie-list {
+  margin: 1rem 0;
+  font-size: large;
+}
+
+.movie-list tr:hover {
+  cursor: pointer;
+}
+
+.movie-list td {
+  padding: 0.5rem;
+}
+
+.movie-preview {
+  margin: 2rem 0 0 4rem;
+}
+
+.movie-preview img {
+  border-radius: 0.5rem;
+}
+
+.movie-preview h3 {
+  text-align: center;
+}
+
+.actor-list {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.actor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.movie-list img,
+.actor img {
+  height: 100px;
+  width: auto;
+  border-radius: 0.3rem;
+}
+
+.actor p {
+  font-size: large;
+  margin-left: 2rem;
+}
