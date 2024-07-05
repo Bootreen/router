@@ -7,6 +7,7 @@ import Home from "./routes/Home/Home";
 import Movies from "./routes/Movies/Movies";
 import Actors from "./routes/Actors/Actors";
 import MoviePreview from "./components/MoviePreview/MoviePreview";
+import ActorDetails from "./components/ActorDetails/ActorDetails";
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,7 @@ const router = createBrowserRouter([
       {
         path: "/actors",
         element: <Actors />,
+        children: [{ path: ":actorId", element: <ActorDetails /> }],
       },
     ],
   },

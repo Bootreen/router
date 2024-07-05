@@ -20,3 +20,12 @@ export const retriveSelectedMovieData = (movieId) => {
   const actorList = retrieveActorList(cast);
   return { movieCover: image, actorList: actorList };
 };
+
+export const retriveSelectedActorData = (actorId) => {
+  const { image, name, character } = actors.find(({ id }) => id == actorId);
+  const { title } = movies.find(({ cast }) =>
+    cast.find(({ id }) => id == actorId)
+  );
+  console.log(title);
+  return { image, name, role: character, movieTitle: title };
+};

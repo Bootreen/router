@@ -1,8 +1,7 @@
-import { useNavigate } from "react-router-dom";
-import { movies } from "../../data/movies";
 import "./MovieList.css";
+import { movies } from "../../data/movies";
+import { useNavigate } from "react-router-dom";
 
-// const MovieList = ({ onSelectMovie }) => (
 const MovieList = () => {
   const navigate = useNavigate();
   return (

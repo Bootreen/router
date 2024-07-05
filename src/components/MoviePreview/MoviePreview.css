@@ -1,5 +1,11 @@
 .movie-preview {
-  margin: 2rem 0 0 4rem;
+  justify-self: center;
+  margin: 2rem 0 0 2rem;
+}
+
+.movie-cover {
+  width: 100%;
+  margin: auto;
 }
 
 .movie-preview img {

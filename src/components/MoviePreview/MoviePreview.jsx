@@ -7,7 +7,9 @@ const MoviePreview = () => {
   const { movieCover, actorList } = retriveSelectedMovieData(movieId);
   return (
     <div className='movie-preview'>
-      <img src={movieCover} />
+      <div className='movie-cover'>
+        <img src={movieCover} />
+      </div>
       <h3>Top cast:</h3>
       <ul className='actor-list'>
         {actorList.map(({ id, actor, role, image }) => (
