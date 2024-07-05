@@ -1,0 +1,15 @@
+.actor-details {
+  position: fixed;
+  justify-self: center;
+  margin: 2rem 0 0 40%;
+  text-align: center;
+}
+
+.actor-image {
+  width: 100%;
+  margin: auto;
+}
+
+.actor-image img {
+  border-radius: 0.5rem;
+}

@@ -36,3 +36,9 @@
   color: var(--color-dark);
   border-radius: 5px;
 }
+
+.navbar .menu a.pending {
+  background-color: var(--color-transition);
+  color: var(--color-dark);
+  border-radius: 5px;
+}

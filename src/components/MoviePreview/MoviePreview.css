@@ -1,0 +1,47 @@
+.movie-preview {
+  justify-self: center;
+  margin: 2rem 0 0 2rem;
+}
+
+.movie-cover {
+  width: 100%;
+  margin: auto;
+}
+
+.movie-preview img {
+  border-radius: 0.5rem;
+}
+
+.movie-preview h3 {
+  text-align: center;
+}
+
+.cast-list {
+  margin-left: 5rem;
+  display: flex;
+  flex-direction: column;
+  row-gap: 0.5rem;
+}
+
+.cast-list a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.actor {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.actor img {
+  height: 100px;
+  width: auto;
+  border-radius: 0.3rem;
+}
+
+.actor p {
+  font-size: larger;
+  margin-left: 2rem;
+}

@@ -1,6 +1,7 @@
 :root {
   --color-dark: #333;
   --color-light: #fff;
+  --color-hover: PapayaWhip;
 }
 
 * {
