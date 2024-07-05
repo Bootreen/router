@@ -3,7 +3,7 @@ import ActorList from "../../components/ActorList/ActorList";
 import { Outlet } from "react-router-dom";
 
 const Actors = () => (
-  <div className='movie-page-container'>
+  <div className='actor-page-container'>
     <ActorList />
     <Outlet />
   </div>

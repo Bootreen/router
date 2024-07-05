@@ -16,11 +16,17 @@
   text-align: center;
 }
 
-.actor-list {
+.cast-list {
   margin-left: 5rem;
   display: flex;
   flex-direction: column;
   row-gap: 0.5rem;
+}
+
+.cast-list a {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
 }
 
 .actor {
@@ -29,7 +35,6 @@
   align-items: center;
 }
 
-.movie-list img,
 .actor img {
   height: 100px;
   width: auto;

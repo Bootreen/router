@@ -22,10 +22,13 @@ export const retriveSelectedMovieData = (movieId) => {
 };
 
 export const retriveSelectedActorData = (actorId) => {
-  const { image, name, character } = actors.find(({ id }) => id == actorId);
-  const { title } = movies.find(({ cast }) =>
+  const {
+    image,
+    name,
+    character: role,
+  } = actors.find(({ id }) => id == actorId);
+  const { id: movieId, title: movieTitle } = movies.find(({ cast }) =>
     cast.find(({ id }) => id == actorId)
   );
-  console.log(title);
-  return { image, name, role: character, movieTitle: title };
+  return { image, name, role, movieTitle, movieId };
 };

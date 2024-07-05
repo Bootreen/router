@@ -1,4 +1,4 @@
-// import "./MovieList.css";
+import "./ActorList.css";
 import { actors } from "../../data/actors";
 import { useNavigate } from "react-router-dom";
 
@@ -15,7 +15,9 @@ const ActorList = () => {
             <td className='actor-name'>
               <strong>{name}</strong>
             </td>
-            <td>Popularity: {popularity}</td>
+            <td>
+              Popularity: <strong>{Math.round(popularity)}</strong>
+            </td>
           </tr>
         ))}
       </tbody>
