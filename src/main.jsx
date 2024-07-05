@@ -6,6 +6,7 @@ import RootLayout from "./routes/RootLayout/RootLayout";
 import Home from "./routes/Home/Home";
 import Movies from "./routes/Movies/Movies";
 import Actors from "./routes/Actors/Actors";
+import MoviePreview from "./components/MoviePreview/MoviePreview";
 
 const router = createBrowserRouter([
   {
@@ -19,6 +20,7 @@ const router = createBrowserRouter([
       {
         path: "/movies",
         element: <Movies />,
+        children: [{ path: ":movieId", element: <MoviePreview /> }],
       },
       {
         path: "/actors",

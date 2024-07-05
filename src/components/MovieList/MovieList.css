@@ -6,7 +6,7 @@
 
 .movie-list tr:hover {
   cursor: pointer;
-  background-color: antiquewhite;
+  background-color: var(--color-hover);
 }
 
 .movie-list td {

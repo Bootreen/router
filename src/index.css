@@ -1,7 +1,7 @@
 :root {
   --color-dark: #333;
   --color-light: #fff;
-  --color-transition: PapayaWhip;
+  --color-hover: PapayaWhip;
 }
 
 * {
